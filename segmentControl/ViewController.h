@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) UIScrollView *headerScrollView;
+@property (nonatomic, copy) NSArray *headArray;
+@property (nonatomic, strong) UIViewController *currentVC;
+@property (nonatomic, strong) UIViewController *shougongVC;
+@property (nonatomic, strong) UIViewController *zhinengVC;
+
 
 @end
 
